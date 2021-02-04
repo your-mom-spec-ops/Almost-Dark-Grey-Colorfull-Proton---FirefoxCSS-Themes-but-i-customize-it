@@ -128,18 +128,18 @@ toolbarbutton.bookmark-item .toolbarbutton-icon {
 }
 
 .titlebar-button.titlebar-min > .toolbarbutton-icon {
-	background: rgba(var(--caption-min-color), 1); !important;
+	background: rgba(var(--caption-min-color), 1) !important;
 }
 .titlebar-button.titlebar-max > .toolbarbutton-icon,
 .titlebar-button.titlebar-restore > .toolbarbutton-icon {
-	background: rgba(var(--caption-max-color), 1); !important;
+	background: rgba(var(--caption-max-color), 1) !important;
 }
 .titlebar-button.titlebar-close > .toolbarbutton-icon {
-    background: rgba(var(--caption-close-color), 1); !important;
+    background: rgba(var(--caption-close-color), 1) !important;
 }
 
 .titlebar-button:hover > .toolbarbutton-icon {
-	background: rgba(var(--third-accent-color), 1); !important;
+	background: rgba(var(--third-accent-color), 1) !important;
 }
 .titlebar-button.titlebar-min:hover > .toolbarbutton-icon,
 .titlebar-button.titlebar-max:hover > .toolbarbutton-icon,
@@ -162,6 +162,29 @@ toolbar #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):no
 	background-color: rgba(var(--transparent-bgcolor), 1) !important;
 }
 
+
+/*================== hide NAV BAR buttons ==================*/
+
+#nav-bar:not([customizing="true"]) > #nav-bar-customization-target > #urlbar-container:not(:hover) > #urlbar:not([focused]) > #urlbar-input-container > #page-action-buttons {
+	opacity: 0;
+}	
+#page-action-buttons {
+	transition: opacity 0.15s ease;
+}
+#nav-bar:not([customizing="true"]) > #nav-bar-customization-target > #urlbar-container:not(:hover) > #urlbar:not([focused]) > #urlbar-input-container > #identity-box {
+	opacity: 0;
+	/*visibility: collapse;*/
+}
+#identity-box {
+	/*transition: visibility 0.30s ease-in-out, opacity 0.30s ease-in-out;*/
+	transition: opacity 0.15s ease;
+}
+#nav-bar:not([customizing="true"]) > #nav-bar-customization-target > #urlbar-container:not(:hover) > #urlbar:not([focused]) > #urlbar-input-container > #tracking-protection-icon-container {
+	opacity: 0;
+}
+#tracking-protection-icon-container {
+	transition: opacity 0.15s ease;
+}
 
 /*================== NAV BAR ==================*/
 toolbar#nav-bar {
@@ -214,6 +237,10 @@ searchbar#searchbar {
 	background-color: rgba(var(--accent-color), 1) !important;
 	color: rgba(var(--third-accent-color), 1) !important;
 	box-shadow: none !important;
+}
+
+#urlbar {
+	text-align: center !important;
 }
 
 
@@ -499,6 +526,13 @@ searchbar#searchbar {
 
 
 /* Icons */
+
+#forward-button {
+	list-style-image: url(image/right-arrow.svg) !important;
+}
+#back-button {
+	list-style-image: url(image/left-arrow.svg) !important;
+}
 
 #back-button > menupopup .menu-right,
 #backForwardMenu .menu-right,
