@@ -556,7 +556,12 @@ searchbar#searchbar {
 
 
 /* Icons */
-
+#home-button {
+	list-style-image: url(image/fire-2-32.ico) !important;
+}
+#home-button .toolbarbutton-icon {
+	opacity: 0.7 !important;
+}
 #forward-button {
 	list-style-image: url(image/right-arrow.svg) !important;
 }
