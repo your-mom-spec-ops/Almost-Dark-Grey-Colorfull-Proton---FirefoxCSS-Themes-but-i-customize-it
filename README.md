@@ -1,7 +1,10 @@
+# This is a simple fork 
+all credits to https://github.com/CristianDragos/FirefoxThemes I change Darkish grey **only**
+
 # Darkish 
 1. enable this en `about:config` -> `browser.newtabpage.activity-stream.newNewtabExperience.enabled` to make newtab better
 
-# other proton entries that maybe you like it 
+# Other proton entries that maybe you like it 
 1. `browser.proton.enabled`
 2. `browser.proton.tabs.enabled`
 3. `browser.proton.appmenu.enabled`
