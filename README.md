@@ -10,7 +10,7 @@ This is a simple fork all credits to https://github.com/CristianDragos/FirefoxTh
 	+ macOS - `Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX`
 3. Go to that folder.
 4. if there is no folder called `chrome`. Create it.
-5. Inside the zip file you downloaded in the first step there are two folders. each one corresponds to a theme. Choose one of the two and extract its content into the `chrome` folder.
+5. Inside the zip file you downloaded in the first step there are a folder, open.Now you can see two faolders, each one corresponds to a theme. Choose one and extract its **content** into the `chrome` folder.
     + it should look something like this: 
     ```
     chrome/
