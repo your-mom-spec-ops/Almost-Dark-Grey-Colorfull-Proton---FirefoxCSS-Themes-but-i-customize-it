@@ -6,7 +6,7 @@ This is a simple fork all credits to https://github.com/CristianDragos/FirefoxTh
 2. Open a new tab in firefox and write in url bar `about:support` you should see a list with your firefox data, You only need **"Profile folder"** , you can now click in "Open folder" button o copy the address to your profile folder.
     the address should be similar to following example depend of your system:
     + Linux - `$HOME/.mozilla/firefox/XXXXXXX.default-XXXXXX/`
-	+ Windows 10 - `C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX`
+	+ Windows 10 - `C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXX.default-XXX`
 	+ macOS - `Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX`
 3. Go to that folder.
 4. if there is no folder called `chrome`. Create it.
