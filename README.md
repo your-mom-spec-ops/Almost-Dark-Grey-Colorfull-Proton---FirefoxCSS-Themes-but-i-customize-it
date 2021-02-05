@@ -1,6 +1,6 @@
 # Almost Dark Grey/Colorfull Proton
 ![Header](almostdarkColorfullprotonpreview.webp "Almost Dark Colorfull Proton for Firefox")
-! [](almostdarkGreyprotonpreview.webp "Almost Dark Grey Proton for Firefox")
+![](almostdarkGreyprotonpreview.webp "Almost Dark Grey Proton for Firefox")
 This is a simple fork all credits to https://github.com/CristianDragos/FirefoxThemes and https://github.com/datguypiko/Firefox-Mod-Blur
 
 # How to download and install
