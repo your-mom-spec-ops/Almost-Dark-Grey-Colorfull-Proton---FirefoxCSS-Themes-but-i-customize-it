@@ -1,4 +1,6 @@
 # Almost Dark Grey/Colorfull Proton
+![Header](almostdarkColorfullprotonpreview.webp "Almost Dark Colorfull Proton for Firefox")
+! [](almostdarkGreyprotonpreview.webp "Almost Dark Grey Proton for Firefox")
 This is a simple fork all credits to https://github.com/CristianDragos/FirefoxThemes and https://github.com/datguypiko/Firefox-Mod-Blur
 
 # How to download and install
@@ -29,7 +31,7 @@ This is a simple fork all credits to https://github.com/CristianDragos/FirefoxTh
  + At the bottom of the page there is a button called `themes` click it and set to `Dark`
 
 # Newtab page 
-1. enable this in `about:config` -> `browser.newtabpage.activity-stream.newNewtabExperience.enabled` to make newtab better
+1. enable this in `about:config` -> `browser.newtabpage.activity-stream.newNewtabExperience.enabled` to make newtab looks like preview picture.
 
 # Other proton entries that maybe you like it (optionals)
 1. `browser.proton.enabled`
