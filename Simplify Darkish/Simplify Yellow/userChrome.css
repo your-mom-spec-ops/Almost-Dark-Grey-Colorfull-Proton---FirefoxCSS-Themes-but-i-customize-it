@@ -128,18 +128,18 @@ toolbarbutton.bookmark-item .toolbarbutton-icon {
 }
 
 .titlebar-button.titlebar-min > .toolbarbutton-icon {
-	background: rgba(var(--caption-min-color), 1); !important;
+	background: rgba(var(--caption-min-color), 1) !important;
 }
 .titlebar-button.titlebar-max > .toolbarbutton-icon,
 .titlebar-button.titlebar-restore > .toolbarbutton-icon {
-	background: rgba(var(--caption-max-color), 1); !important;
+	background: rgba(var(--caption-max-color), 1) !important;
 }
 .titlebar-button.titlebar-close > .toolbarbutton-icon {
-    background: rgba(var(--caption-close-color), 1); !important;
+    background: rgba(var(--caption-close-color), 1) !important;
 }
 
 .titlebar-button:hover > .toolbarbutton-icon {
-	background: rgba(var(--third-accent-color), 1); !important;
+	background: rgba(var(--third-accent-color), 1) !important;
 }
 .titlebar-button.titlebar-min:hover > .toolbarbutton-icon,
 .titlebar-button.titlebar-max:hover > .toolbarbutton-icon,
@@ -162,6 +162,29 @@ toolbar #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):no
 	background-color: rgba(var(--transparent-bgcolor), 1) !important;
 }
 
+
+/*================== hide NAV BAR buttons ==================*/
+
+#nav-bar:not([customizing="true"]) > #nav-bar-customization-target > #urlbar-container:not(:hover) > #urlbar:not([focused]) > #urlbar-input-container > #page-action-buttons {
+	opacity: 0;
+}	
+#page-action-buttons {
+	transition: opacity 0.15s ease;
+}
+#nav-bar:not([customizing="true"]) > #nav-bar-customization-target > #urlbar-container:not(:hover) > #urlbar:not([focused]) > #urlbar-input-container > #identity-box {
+	opacity: 0;
+	/*visibility: collapse;*/
+}
+#identity-box {
+	/*transition: visibility 0.30s ease-in-out, opacity 0.30s ease-in-out;*/
+	transition: opacity 0.15s ease;
+}
+#nav-bar:not([customizing="true"]) > #nav-bar-customization-target > #urlbar-container:not(:hover) > #urlbar:not([focused]) > #urlbar-input-container > #tracking-protection-icon-container {
+	opacity: 0;
+}
+#tracking-protection-icon-container {
+	transition: opacity 0.15s ease;
+}
 
 /*================== NAV BAR ==================*/
 toolbar#nav-bar {
@@ -215,7 +238,41 @@ searchbar#searchbar {
 	color: rgba(var(--third-accent-color), 1) !important;
 	box-shadow: none !important;
 }
+/*================== URL BAR ==================*/
+#urlbar {
+	text-align: center !important;
+}
+#urlbar[breakout][breakout-extend] {
+	top: 5px !important;
+	left: 0px !important;
+	width: 100% !important;
+	padding: 0px !important;
+}
+/* for alternate Density settings */
+[uidensity="compact"] #urlbar[breakout][breakout-extend] {
+	top: 3px !important;
+}
+[uidensity="touch"] #urlbar[breakout][breakout-extend] {
+	top: 4px !important;
+}
+/* Prevent shift of URL bar contents */
 
+#urlbar[breakout][breakout-extend] > #urlbar-input-container {
+	height: var(--urlbar-height) !important;
+	padding: 0 !important;
+  }
+
+  /* Do not animate */
+
+  #urlbar[breakout][breakout-extend] > #urlbar-background {
+	animation: none !important;;
+  }
+
+  /* Remove shadows */
+
+  #urlbar[breakout][breakout-extend] > #urlbar-background {
+	box-shadow: none !important;
+  }
 
 /*================== SIDEBAR ==================*/
 #sidebar-box,
@@ -499,6 +556,18 @@ searchbar#searchbar {
 
 
 /* Icons */
+#home-button {
+	list-style-image: url(image/fire-2-32.ico) !important;
+}
+#home-button .toolbarbutton-icon {
+	opacity: 0.7 !important;
+}
+#forward-button {
+	list-style-image: url(image/right-arrow.svg) !important;
+}
+#back-button {
+	list-style-image: url(image/left-arrow.svg) !important;
+}
 
 #back-button > menupopup .menu-right,
 #backForwardMenu .menu-right,
