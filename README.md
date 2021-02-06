@@ -4,7 +4,7 @@
 This is a simple fork all credits to https://github.com/CristianDragos/FirefoxThemes and https://github.com/datguypiko/Firefox-Mod-Blur
 
 # How to download and install
-1. [Click here to download](https://github.com/Neikon/FirefoxThemes/archive/master.zip) or Click in the big green button called "Code" and click in "download zip".
+1. [Click here to download](https://github.com/Neikon/Almost-Dark-Grey-Colorfull-Proton---FirefoxCSS-Themes/releases) or Click in `Releases` on the right side of this page.
 2. Open a new tab in firefox and write in url bar `about:support` you should see a list with your firefox data, You only need **"Profile folder"** , you can now click in "Open folder" button o copy the address to your profile folder.
     the address should be similar to following example depend of your system:
     + Linux - `$HOME/.mozilla/firefox/XXXXXXX.default-XXXXXX/`
@@ -12,7 +12,7 @@ This is a simple fork all credits to https://github.com/CristianDragos/FirefoxTh
 	+ macOS - `Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX`
 3. Go to that folder.
 4. if there is no folder called `chrome`. Create it.
-5. Inside the zip file you downloaded in the first step there are a folder, open.Now you can see two faolders, each one corresponds to a theme. Choose one and extract its **content** into the `chrome` folder.
+5. Extract the contents of the zip file you downloaded in the first step into the folder `chrome`
     + it should look something like this: 
     ```
     chrome/
