@@ -33,6 +33,9 @@ This is a simple fork all credits to https://github.com/CristianDragos/FirefoxTh
 # Newtab page 
 1. enable this in `about:config` -> `browser.newtabpage.activity-stream.newNewtabExperience.enabled` to make newtab looks like preview picture.
 
+# Color underline in pinned tab
++ Those tabs are simply in a container and I have adjusted the colors of those containers to match.
+
 # Other proton entries that maybe you like it (optionals)
 1. `browser.proton.enabled`
 2. `browser.proton.tabs.enabled`
