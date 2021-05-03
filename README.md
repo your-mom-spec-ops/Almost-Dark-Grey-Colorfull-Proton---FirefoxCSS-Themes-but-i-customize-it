@@ -30,13 +30,16 @@ This is a simple fork all credits to https://github.com/CristianDragos/FirefoxTh
  + Go to Firefox 3 lines menu -> Customize
  + At the bottom of the page there is a button called `themes` click it and set to `Dark`
 
-# Newtab page 
-1. enable this in `about:config` -> `browser.newtabpage.activity-stream.newNewtabExperience.enabled` to make newtab looks like preview picture.
-
 # Color underline in pinned tab
 + Those tabs are simply in a container and I have adjusted the colors of those containers to match.
 
-# Other proton entries that maybe you like it (optionals)
+# A simple version or complementary version of this the using Firefox Color Addon
++ [Click here to see](https://color.firefox.com/?theme=XQAAAAIDBAAAAAAAAABBKYhm849SCicxcUapi38oKRicm6da8pG5gjJb-G_pjPXQAkFXTZounwBsJxx0SrOzT7tu4xqlg59IWzEQl19rU_THuaU5NMCRHVgRdZ4FokWwvLRzUDj_kU6oP0t2qTl9Y9w8LnJ_HIeeBQNFViuLYPUqvxM5e29ewwY9emkRgUXHd-8ZDhZxjC6YMT0poIWDgH6plF6RkLXb3PrhBUK5E1rzuMVlDRK2Ev2Iap6fvmuIOSU4_Cyp0o5szlba69TXYSDs7BTsYliddWsU9j9w29agrg6IPKQzxQp5-4jedJu38-pFJkCPjMqrc5MBLnTKGcozjGq5vu6EoXVeqAiX_9Tpquzom0fFcZ6WQxXPByBzR7ouiDZ0cBeJUQeriNpilnV77FMdahFrIPbzkg3OCSuSYQDKeslIuu_INEY_tCz0dwBoJSmWS5JN6Fxk2gLtsKOG0LXGA-fTeMNCVwcDi6esp4gMa91p3MYy4SRNX__wsgV5) 
+
+# Newtab page *Not necessary as of firefox 89 *
+1. enable this in `about:config` -> `browser.newtabpage.activity-stream.newNewtabExperience.enabled` to make newtab looks like preview picture.
+
+# Other proton entries that maybe you like it (optionals) *Not necessary as of firefox 89 *
 1. `browser.proton.enabled`
 2. `browser.proton.tabs.enabled`
 3. `browser.proton.appmenu.enabled`
