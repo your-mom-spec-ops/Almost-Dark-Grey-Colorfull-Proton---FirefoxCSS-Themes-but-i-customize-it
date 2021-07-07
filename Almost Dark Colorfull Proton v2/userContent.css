@@ -23,6 +23,7 @@ body[lwt-sidebar-brighttext] {
 @media (prefers-color-scheme: dark) {
 @-moz-document url("about:newtab"), url("about:home"), url("about:blank") {
  body.activity-stream { background-color: rgba(var(--dark-color), 1) !important;}
+ .outer-wrapper.newtab-experience .top-site-outer .tile { background-color: #38383d !important;}
 }
 }
 
