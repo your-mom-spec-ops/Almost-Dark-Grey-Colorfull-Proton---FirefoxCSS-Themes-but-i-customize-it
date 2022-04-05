@@ -36,15 +36,3 @@ This is a simple fork all credits to https://github.com/CristianDragos/FirefoxTh
 # A simple or complementary versions of theme. (Choose only one of the options below)
 + [Click here to see this theme as standar firefox theme](https://addons.mozilla.org/es/firefox/addon/almost-dark-proton/)
 + [Click here to see Firefox color version](https://color.firefox.com/?theme=XQAAAAIDBAAAAAAAAABBKYhm849SCicxcUapi38oKRicm6da8pG5gjJb-G_pjPXQAkFXTZounwBsJxx0SrOzT7tu4xqlg59IWzEQl19rU_THuaU5NMCRHVgRdZ4FokWwvLRzUDj_kU6oP0t2qTl9Y9w8LnJ_HIeeBQNFViuLYPUqvxM5e29ewwY9emkRgUXHd-8ZDhZxjC6YMT0poIWDgH6plF6RkLXb3PrhBUK5E1rzuMVlDRK2Ev2Iap6fvmuIOSU4_Cyp0o5szlba69TXYSDs7BTsYliddWsU9j9w29agrg6IPKQzxQp5-4jedJu38-pFJkCPjMqrc5MBLnTKGcozjGq5vu6EoXVeqAiX_9Tpquzom0fFcZ6WQxXPByBzR7ouiDZ0cBeJUQeriNpilnV77FMdahFrIPbzkg3OCSuSYQDKeslIuu_INEY_tCz0dwBoJSmWS5JN6Fxk2gLtsKOG0LXGA-fTeMNCVwcDi6esp4gMa91p3MYy4SRNX__wsgV5) This version is identical to the standard Firefox theme, but you can easily edit all the colors. You will need Firefox Color addon to install it.
-
-
-# Newtab page *Not necessary as of firefox 89 *
-1. enable this in `about:config` -> `browser.newtabpage.activity-stream.newNewtabExperience.enabled` to make newtab looks like preview picture.
-
-# Other proton entries that maybe you like it (optionals) *Not necessary as of firefox 89 *
-1. `browser.proton.enabled`
-2. `browser.proton.tabs.enabled`
-3. `browser.proton.appmenu.enabled`
-
-
-
